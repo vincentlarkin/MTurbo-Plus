@@ -1,0 +1,793 @@
+{
+  "files": [
+    {
+      "path": "opt\\TurboSystem_sw\\51.80.300.021\\image.bin",
+      "size": 20368530,
+      "crc32": "3a25b18d",
+      "sha256": "c5edc8d47dba9f23dd4df0527e07554acb9f21deea5ccc0797c729a386d35ac8",
+      "header_ascii": "......2c51.80.300.015........O!...$......L!.....U..f............"
+    },
+    {
+      "path": "opt\\TurboSHDb\\50.80.111.018\\image.bin",
+      "size": 230849960,
+      "crc32": "e6874a61",
+      "sha256": "9df7246edc4972ee1c93ceacbe55b74487a7b38b979e36705d55fb94e357ef1f",
+      "header_ascii": ".......w50.80.111.012..........................................."
+    },
+    {
+      "path": "opt\\TurboSystem_sw\\51.80.300.021\\eFilmLite\\tempFL.bin",
+      "size": 37,
+      "crc32": "3da4bd54",
+      "sha256": "e79a25fd3f6589cde5ef50f891eb0bf34947b0f5592f09de8d6a281f1f0cacd9",
+      "header_ascii": "Temp file to allow upgrade to proceed"
+    }
+  ],
+  "system_header_version": "51.80.300.015",
+  "shdb_header_version": "50.80.111.012",
+  "system_outer_header_crc": {
+    "stored": "6332d5eb",
+    "calculated": "6332d5eb",
+    "covered_start": 8,
+    "covered_end": 2407324,
+    "matches": true
+  },
+  "shdb_outer_header_crc": {
+    "stored": "77d4f17f",
+    "calculated": "77d4f17f",
+    "covered_start": 8,
+    "covered_end": 230849960,
+    "matches": true
+  },
+  "system_zlib_descriptors": [
+    {
+      "label": "stream1",
+      "descriptor": 2407324,
+      "magic": 2864382784,
+      "stored_word": 575654224,
+      "start_field": 2407348,
+      "end_field": 6775044,
+      "stream_offset": 2407349,
+      "compression_flag": 8,
+      "zlib_header": 40056
+    },
+    {
+      "label": "stream2",
+      "descriptor": 6775044,
+      "magic": 2882395322,
+      "stored_word": 1092082929,
+      "start_field": 6775080,
+      "end_field": 6780182,
+      "stream_offset": 6775081,
+      "compression_flag": 8,
+      "zlib_header": 40056
+    },
+    {
+      "label": "stream3",
+      "descriptor": 6780182,
+      "magic": 287454020,
+      "stored_word": 2582518328,
+      "start_field": 6780218,
+      "end_field": 6782274,
+      "stream_offset": 6780219,
+      "compression_flag": 8,
+      "zlib_header": 40056
+    },
+    {
+      "label": "stream4",
+      "descriptor": 6782274,
+      "magic": 305414945,
+      "stored_word": 1296510204,
+      "start_field": 6782310,
+      "end_field": 20066599,
+      "stream_offset": 6782311,
+      "compression_flag": 8,
+      "zlib_header": 40056
+    },
+    {
+      "label": "stream5",
+      "descriptor": 20066599,
+      "magic": 3455057628,
+      "stored_word": 3455972382,
+      "start_field": 20066635,
+      "end_field": 20368530,
+      "stream_offset": 20066636,
+      "compression_flag": 8,
+      "zlib_header": 40056
+    }
+  ],
+  "tempfl_text": "Temp file to allow upgrade to proceed",
+  "system_zlib_streams": [
+    {
+      "offset": 2407349,
+      "compressed_len": 4367690,
+      "inflated_len": 13786008,
+      "stream_crc32": "51adc03e",
+      "payload_crc32": "962aa149",
+      "payload_adler32": "0fd8b686",
+      "anchors": [
+        "IMAGE.BIN",
+        "\\opt\\TurboSystem_sw",
+        "\\opt\\TurboSHDb",
+        "aUpgradeFWReader",
+        "aUpgradeSHReader",
+        "ffss-service@fujifilm.com",
+        "Mini Boot SW Ver",
+        "Admin Login-"
+      ]
+    },
+    {
+      "offset": 6775081,
+      "compressed_len": 5099,
+      "inflated_len": 18468,
+      "stream_crc32": "d81df530",
+      "payload_crc32": "44c44863",
+      "payload_adler32": "7456e26c",
+      "anchors": []
+    },
+    {
+      "offset": 6780219,
+      "compressed_len": 2053,
+      "inflated_len": 4600,
+      "stream_crc32": "37fda7d3",
+      "payload_crc32": "84977d61",
+      "payload_adler32": "1a358212",
+      "anchors": []
+    },
+    {
+      "offset": 6782311,
+      "compressed_len": 13284286,
+      "inflated_len": 15783700,
+      "stream_crc32": "7f79e8f2",
+      "payload_crc32": "849b71f0",
+      "payload_adler32": "e8021998",
+      "anchors": [
+        "\\opt\\TurboSystem_sw",
+        "\\opt\\TurboSHDb"
+      ]
+    },
+    {
+      "offset": 20066636,
+      "compressed_len": 301892,
+      "inflated_len": 5242880,
+      "stream_crc32": "b5b0d529",
+      "payload_crc32": "cf309653",
+      "payload_adler32": "fab2cd6c",
+      "anchors": []
+    }
+  ],
+  "system_sync_regions": [
+    {
+      "index": 0,
+      "offset": 48,
+      "next_offset": 1414752,
+      "size": 1414704,
+      "note": "Xilinx-style sync word / boot configuration region; do not patch casually"
+    },
+    {
+      "index": 1,
+      "offset": 1414752,
+      "next_offset": 2217432,
+      "size": 802680,
+      "note": "Xilinx-style sync word / boot configuration region; do not patch casually"
+    },
+    {
+      "index": 2,
+      "offset": 2217432,
+      "next_offset": 2407349,
+      "size": 189917,
+      "note": "Xilinx-style sync word / boot configuration region; do not patch casually"
+    }
+  ],
+  "splash_pointer_table": 2182876,
+  "splash_frames": [
+    {
+      "index": 0,
+      "start": 1584060,
+      "end": 1626166,
+      "size": 42106,
+      "decoded": true,
+      "rle_consumed": 42106,
+      "trailing_nonzero": 0,
+      "crc32": "6bf44fa2"
+    },
+    {
+      "index": 1,
+      "start": 1626166,
+      "end": 1678372,
+      "size": 52206,
+      "decoded": true,
+      "rle_consumed": 52206,
+      "trailing_nonzero": 0,
+      "crc32": "d33557b0"
+    },
+    {
+      "index": 2,
+      "start": 1678372,
+      "end": 1730280,
+      "size": 51908,
+      "decoded": true,
+      "rle_consumed": 51908,
+      "trailing_nonzero": 0,
+      "crc32": "bfab0dca"
+    },
+    {
+      "index": 3,
+      "start": 1730280,
+      "end": 1781996,
+      "size": 51716,
+      "decoded": true,
+      "rle_consumed": 51716,
+      "trailing_nonzero": 0,
+      "crc32": "7d063a75"
+    },
+    {
+      "index": 4,
+      "start": 1781996,
+      "end": 1834094,
+      "size": 52098,
+      "decoded": true,
+      "rle_consumed": 52098,
+      "trailing_nonzero": 0,
+      "crc32": "506e6830"
+    },
+    {
+      "index": 5,
+      "start": 1834094,
+      "end": 1885996,
+      "size": 51902,
+      "decoded": true,
+      "rle_consumed": 51902,
+      "trailing_nonzero": 0,
+      "crc32": "1e01d725"
+    },
+    {
+      "index": 6,
+      "start": 1885996,
+      "end": 1931684,
+      "size": 45688,
+      "decoded": true,
+      "rle_consumed": 45688,
+      "trailing_nonzero": 0,
+      "crc32": "08127a91"
+    },
+    {
+      "index": 7,
+      "start": 1931684,
+      "end": 1986736,
+      "size": 55052,
+      "decoded": true,
+      "rle_consumed": 55052,
+      "trailing_nonzero": 0,
+      "crc32": "13e2a7b9"
+    },
+    {
+      "index": 8,
+      "start": 1986736,
+      "end": 2038722,
+      "size": 51986,
+      "decoded": true,
+      "rle_consumed": 51986,
+      "trailing_nonzero": 0,
+      "crc32": "7af55a52"
+    },
+    {
+      "index": 9,
+      "start": 2038722,
+      "end": 2091648,
+      "size": 52926,
+      "decoded": true,
+      "rle_consumed": 52926,
+      "trailing_nonzero": 0,
+      "crc32": "76753e4c"
+    },
+    {
+      "index": 10,
+      "start": 2091648,
+      "end": 2134634,
+      "size": 42986,
+      "decoded": true,
+      "rle_consumed": 42986,
+      "trailing_nonzero": 0,
+      "crc32": "1cccdea6"
+    },
+    {
+      "index": 11,
+      "start": 2134634,
+      "end": 2182876,
+      "size": 48242,
+      "decoded": true,
+      "rle_consumed": 42368,
+      "trailing_nonzero": 2744,
+      "crc32": "55328c9e"
+    }
+  ],
+  "candidate_constants": [
+    {
+      "label": "zlib compressed length",
+      "value": "0x0042a54a",
+      "outside_hits": []
+    },
+    {
+      "label": "zlib inflated length",
+      "value": "0x00d25b98",
+      "outside_hits": []
+    },
+    {
+      "label": "zlib stream crc32",
+      "value": "0x51adc03e",
+      "outside_hits": []
+    },
+    {
+      "label": "zlib payload crc32",
+      "value": "0x962aa149",
+      "outside_hits": []
+    },
+    {
+      "label": "zlib payload adler32",
+      "value": "0x0fd8b686",
+      "outside_hits": []
+    },
+    {
+      "label": "system file length",
+      "value": "0x0136cc92",
+      "outside_hits": [
+        {
+          "endian": "little",
+          "offsets": [
+            20066611
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "label": "system file crc32",
+      "value": "0x3a25b18d",
+      "outside_hits": []
+    }
+  ],
+  "system_ascii_clusters": [
+    {
+      "start": 2400212,
+      "end": 2402920,
+      "size": 2708,
+      "strings": 78
+    },
+    {
+      "start": 2365872,
+      "end": 2367527,
+      "size": 1655,
+      "strings": 42
+    },
+    {
+      "start": 2181268,
+      "end": 2182729,
+      "size": 1461,
+      "strings": 15
+    },
+    {
+      "start": 2277344,
+      "end": 2278488,
+      "size": 1144,
+      "strings": 6
+    },
+    {
+      "start": 2405896,
+      "end": 2406218,
+      "size": 322,
+      "strings": 5
+    },
+    {
+      "start": 6369959,
+      "end": 6370849,
+      "size": 890,
+      "strings": 5
+    },
+    {
+      "start": 12547084,
+      "end": 12548414,
+      "size": 1330,
+      "strings": 5
+    },
+    {
+      "start": 15091121,
+      "end": 15092229,
+      "size": 1108,
+      "strings": 5
+    },
+    {
+      "start": 17247129,
+      "end": 17248260,
+      "size": 1131,
+      "strings": 5
+    },
+    {
+      "start": 755190,
+      "end": 755566,
+      "size": 376,
+      "strings": 4
+    },
+    {
+      "start": 6386841,
+      "end": 6387862,
+      "size": 1021,
+      "strings": 4
+    },
+    {
+      "start": 6705127,
+      "end": 6705679,
+      "size": 552,
+      "strings": 4
+    },
+    {
+      "start": 7903512,
+      "end": 7904543,
+      "size": 1031,
+      "strings": 4
+    },
+    {
+      "start": 9195835,
+      "end": 9196781,
+      "size": 946,
+      "strings": 4
+    },
+    {
+      "start": 10270741,
+      "end": 10271599,
+      "size": 858,
+      "strings": 4
+    },
+    {
+      "start": 10830126,
+      "end": 10830652,
+      "size": 526,
+      "strings": 4
+    },
+    {
+      "start": 17936927,
+      "end": 17938018,
+      "size": 1091,
+      "strings": 4
+    },
+    {
+      "start": 20142856,
+      "end": 20143559,
+      "size": 703,
+      "strings": 4
+    },
+    {
+      "start": 617932,
+      "end": 618236,
+      "size": 304,
+      "strings": 3
+    },
+    {
+      "start": 722917,
+      "end": 723046,
+      "size": 129,
+      "strings": 3
+    }
+  ],
+  "shdb_resource_hints": [
+    {
+      "offset": 1862406,
+      "name": "SHDbSc_1.bin"
+    },
+    {
+      "offset": 1862425,
+      "name": "SHDbSc_2.bin"
+    },
+    {
+      "offset": 1862444,
+      "name": "SHDbSc_3.bin"
+    },
+    {
+      "offset": 1862463,
+      "name": "SHDbSc_4.bin"
+    },
+    {
+      "offset": 1862482,
+      "name": "SHDbSc_5.bin"
+    },
+    {
+      "offset": 1862501,
+      "name": "SHDbSc_6.bin"
+    },
+    {
+      "offset": 1862520,
+      "name": "SHDbSc_7.bin"
+    },
+    {
+      "offset": 1862539,
+      "name": "SHDbSc_8.bin"
+    },
+    {
+      "offset": 1862558,
+      "name": "SHDbSc_9.bin"
+    },
+    {
+      "offset": 1862577,
+      "name": "SHDbSc_10.bin"
+    },
+    {
+      "offset": 1862597,
+      "name": "SHDbSc_11.bin"
+    },
+    {
+      "offset": 1862617,
+      "name": "SHDbSc_12.bin"
+    },
+    {
+      "offset": 1862637,
+      "name": "SHDbSc_13.bin"
+    },
+    {
+      "offset": 1862657,
+      "name": "SHDbSc_14.bin"
+    },
+    {
+      "offset": 1862677,
+      "name": "SHDbSc_15.bin"
+    },
+    {
+      "offset": 1862697,
+      "name": "SHDbSc_16.bin"
+    },
+    {
+      "offset": 1862717,
+      "name": "SHDbSc_17.bin"
+    },
+    {
+      "offset": 1862737,
+      "name": "SHDbSc_18.bin"
+    },
+    {
+      "offset": 1862757,
+      "name": "SHDbSc_19.bin"
+    },
+    {
+      "offset": 1862777,
+      "name": "SHDbSc_20.bin"
+    },
+    {
+      "offset": 1862797,
+      "name": "SHDbSc_21.bin"
+    },
+    {
+      "offset": 1862817,
+      "name": "SHDbSc_22.bin"
+    },
+    {
+      "offset": 1862837,
+      "name": "SHDbSc_23.bin"
+    },
+    {
+      "offset": 1862857,
+      "name": "SHDbSc_24.bin"
+    },
+    {
+      "offset": 1862877,
+      "name": "SHDbSc_25.bin"
+    },
+    {
+      "offset": 1862897,
+      "name": "SHDbSc_26.bin"
+    },
+    {
+      "offset": 1862917,
+      "name": "SHDbSc_27.bin"
+    },
+    {
+      "offset": 1862937,
+      "name": "SHDbSc_28.bin"
+    },
+    {
+      "offset": 1862957,
+      "name": "SHDbSc_29.bin"
+    },
+    {
+      "offset": 1862977,
+      "name": "SHDbSc_30.bin"
+    },
+    {
+      "offset": 1862997,
+      "name": "SHDbSc_31.bin"
+    },
+    {
+      "offset": 1863017,
+      "name": "SHDbSc_32.bin"
+    },
+    {
+      "offset": 1863037,
+      "name": "SHDbSc_33.bin"
+    },
+    {
+      "offset": 1863057,
+      "name": "SHDbSc_34.bin"
+    },
+    {
+      "offset": 1863077,
+      "name": "SHDbSc_35.bin"
+    },
+    {
+      "offset": 1863097,
+      "name": "SHDbSc_36.bin"
+    },
+    {
+      "offset": 1863117,
+      "name": "SHDbSc_37.bin"
+    },
+    {
+      "offset": 1863137,
+      "name": "SHDbSc_38.bin"
+    },
+    {
+      "offset": 1863157,
+      "name": "SHDbSc_39.bin"
+    },
+    {
+      "offset": 1863177,
+      "name": "SHDbSc_40.bin"
+    },
+    {
+      "offset": 1863197,
+      "name": "SHDbSc_41.bin"
+    },
+    {
+      "offset": 1863217,
+      "name": "SHDbSc_42.bin"
+    },
+    {
+      "offset": 1863237,
+      "name": "SHDbSc_43.bin"
+    },
+    {
+      "offset": 1863257,
+      "name": "SHDbSc_44.bin"
+    },
+    {
+      "offset": 1863277,
+      "name": "SHDbSc_45.bin"
+    },
+    {
+      "offset": 1863297,
+      "name": "SHDbSc_46.bin"
+    },
+    {
+      "offset": 1863317,
+      "name": "SHDbSc_47.bin"
+    },
+    {
+      "offset": 2164907,
+      "name": "SHDbApiData.bin"
+    },
+    {
+      "offset": 2164929,
+      "name": "SHDbAutoGain.bin"
+    },
+    {
+      "offset": 2164977,
+      "name": "SHDbCompCurveExt.bin"
+    },
+    {
+      "offset": 2165004,
+      "name": "SHDbDisplay.bin"
+    },
+    {
+      "offset": 2165046,
+      "name": "SHDbFeData.bin"
+    },
+    {
+      "offset": 2165067,
+      "name": "SHDbKernelFilter.bin"
+    },
+    {
+      "offset": 2165113,
+      "name": "SHDbMicroCode.bin"
+    },
+    {
+      "offset": 2165137,
+      "name": "SHDbNormCoef.bin"
+    },
+    {
+      "offset": 2165161,
+      "name": "SHDbOptColor.bin"
+    },
+    {
+      "offset": 2165184,
+      "name": "SHDbOptEcho.bin"
+    },
+    {
+      "offset": 2165206,
+      "name": "SHDbOptPw.bin"
+    },
+    {
+      "offset": 2165227,
+      "name": "SHDbProduct.bin"
+    },
+    {
+      "offset": 2165249,
+      "name": "SHDbQbpFilter.bin"
+    },
+    {
+      "offset": 2165273,
+      "name": "SHDbSc_0.bin"
+    },
+    {
+      "offset": 2165292,
+      "name": "SHDbSc_1.bin"
+    },
+    {
+      "offset": 2165310,
+      "name": "SHDbSc_10.bin"
+    },
+    {
+      "offset": 2165329,
+      "name": "SHDbSc_11.bin"
+    },
+    {
+      "offset": 2165368,
+      "name": "SHDbSc_13.bin"
+    },
+    {
+      "offset": 2165387,
+      "name": "SHDbSc_14.bin"
+    },
+    {
+      "offset": 2165426,
+      "name": "SHDbSc_16.bin"
+    },
+    {
+      "offset": 2165445,
+      "name": "SHDbSc_17.bin"
+    },
+    {
+      "offset": 2165464,
+      "name": "SHDbSc_18.bin"
+    },
+    {
+      "offset": 2165484,
+      "name": "SHDbSc_19.bin"
+    },
+    {
+      "offset": 2165503,
+      "name": "SHDbSc_2.bin"
+    },
+    {
+      "offset": 2165521,
+      "name": "SHDbSc_20.bin"
+    },
+    {
+      "offset": 2165560,
+      "name": "SHDbSc_22.bin"
+    },
+    {
+      "offset": 2165579,
+      "name": "SHDbSc_23.bin"
+    },
+    {
+      "offset": 2165618,
+      "name": "SHDbSc_25.bin"
+    },
+    {
+      "offset": 2165637,
+      "name": "SHDbSc_26.bin"
+    },
+    {
+      "offset": 2165656,
+      "name": "SHDbSc_27.bin"
+    },
+    {
+      "offset": 2165676,
+      "name": "SHDbSc_28.bin"
+    },
+    {
+      "offset": 2165695,
+      "name": "SHDbSc_29.bin"
+    },
+    {
+      "offset": 2165714,
+      "name": "SHDbSc_3.bin"
+    }
+  ]
+}

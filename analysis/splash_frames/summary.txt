@@ -1,0 +1,14 @@
+image=opt/TurboSystem_sw/51.80.300.021/image.bin
+pointer_table=0x214edc
+frame[00] 0x182bbc-0x18d036 bytes=42106 consumed=42106 rest_nonzero=0 top=[(9, 295706), (15, 7238), (14, 4256)]
+frame[01] 0x18d036-0x199c24 bytes=52206 consumed=52206 rest_nonzero=0 top=[(1, 276342), (14, 7361), (7, 5843), (9, 3707), (13, 2688)]
+frame[02] 0x199c24-0x1a66e8 bytes=51908 consumed=51908 rest_nonzero=0 top=[(1, 276490), (14, 7361), (7, 5758), (9, 3707), (13, 2688)]
+frame[03] 0x1a66e8-0x1b30ec bytes=51716 consumed=51716 rest_nonzero=0 top=[(1, 276847), (14, 7361), (7, 5463), (9, 3707), (13, 2688)]
+frame[04] 0x1b30ec-0x1bfc6e bytes=52098 consumed=52098 rest_nonzero=0 top=[(1, 276568), (14, 7361), (7, 5726), (9, 3707), (13, 2688)]
+frame[05] 0x1bfc6e-0x1cc72c bytes=51902 consumed=51902 rest_nonzero=0 top=[(1, 276646), (14, 7361), (7, 5626), (9, 3707), (13, 2688)]
+frame[06] 0x1cc72c-0x1d79a4 bytes=45688 consumed=45688 rest_nonzero=0 top=[(1, 280519), (7, 7007), (14, 4065), (8, 2565), (4, 2160)]
+frame[07] 0x1d79a4-0x1e50b0 bytes=55052 consumed=55052 rest_nonzero=0 top=[(1, 273537), (14, 7361), (7, 7100), (9, 3707), (13, 2688)]
+frame[08] 0x1e50b0-0x1f1bc2 bytes=51986 consumed=51986 rest_nonzero=0 top=[(1, 276681), (14, 7361), (7, 5625), (9, 3707), (13, 2688)]
+frame[09] 0x1f1bc2-0x1fea80 bytes=52926 consumed=52926 rest_nonzero=0 top=[(1, 275541), (14, 7361), (7, 6160), (9, 3707), (13, 2688)]
+frame[10] 0x1fea80-0x20926a bytes=42986 consumed=42986 rest_nonzero=0 top=[(1, 282878), (7, 5728), (14, 4065), (8, 2565), (9, 2050)]
+frame[11] 0x20926a-0x214edc bytes=48242 consumed=42368 rest_nonzero=2744 top=[(1, 283559), (7, 5511), (14, 4065), (8, 2565), (9, 2050)]
