@@ -5,6 +5,12 @@ tree.
 
 Bench/test device only. Not for clinical use.
 
+Local USB inspection reports are intentionally excluded from Git because they
+contain drive identifiers and machine paths. Keep credentials, device backups,
+and patient exports in `local-private/`, outside the published package. Review
+generated reports before committing them; ignore rules cannot detect every kind
+of personal data.
+
 ## Project Blueboot
 
 We have a fully-editable, bench-installable binary path. Curated working

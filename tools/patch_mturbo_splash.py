@@ -304,8 +304,15 @@ def extract_all_frames(image_path: Path, outdir: Path) -> None:
     ptrs = splash_pointers(data)
     outdir.mkdir(parents=True, exist_ok=True)
     rows: list[Image.Image] = []
+    # Reports may be committed; keep local account and directory names out.
+    resolved_image = image_path.resolve()
+    public_image_path = (
+        resolved_image.relative_to(ROOT).as_posix()
+        if resolved_image.is_relative_to(ROOT)
+        else resolved_image.name
+    )
     summary: list[str] = [
-        f"image={image_path}",
+        f"image={public_image_path}",
         f"pointer_table=0x{SPLASH_POINTER_TABLE_OFFSET:x}",
     ]
 

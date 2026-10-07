@@ -1,3 +1,18 @@
 __pycache__/
 *.pyc
 analysis/extracted/*.bin
+
+# Local inspection reports include drive identifiers and machine paths.
+analysis/usb_inspection*.md
+local-private/
+
+# Credentials and patient exports must never be committed.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.dcm
+*.dicom
